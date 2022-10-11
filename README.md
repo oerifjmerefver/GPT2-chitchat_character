@@ -1,7 +1,7 @@
 # GPT2 for Chinese chitchat 改进
 
 ## 项目描述
-- 本项目是基于(https://github.com/yangjianxin1/GPT2-chitchat)，进行了一些极小的改动
+- 本项目是基于原项目进行了一些极小的改动，原项目地址为[GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)
 - 本项目是基于GPT2的中文闲聊机器人，模型实现基于HuggingFace的[transformers](https://github.com/huggingface/transformers)。
 - 在生成阶段，使用了Temperature、Top-k Sampling和Nucleus Sampling等，可参考论文[The Curious Case of Neural Text Degeneration](https://arxiv.xilesou.top/pdf/1904.09751.pdf)
 
@@ -24,7 +24,7 @@ python3.6、 transformers==4.2.0、pytorch==1.7.0，python3.7实测可运行
 - preprocess.py:数据预处理代码
 
 ## 关于改进
-在原来的项目(https://github.com/yangjianxin1/GPT2-chitchat)中，如果要机器人回答一些问题，比如"github是什么？"，我们想要的是：
+在原来的项目中，如果要机器人回答一些问题，比如"github是什么？"，我们想要的是：
 ```
 q: github是什么？
 a：github是一个著名的开源网站，网址为https://github.com
