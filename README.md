@@ -1,4 +1,4 @@
-# GPT2 for Chinese chitchat 改进
+# GPT2 for Chinese chitchat(charactor)
 
 ## 项目描述
 - 本项目是基于原项目进行了一些极小的改动，原项目地址为[GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)
